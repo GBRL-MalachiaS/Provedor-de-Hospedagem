@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* Cabeçalho e menus */
+header {
+    padding: 35px 0;
+    background-color: #2f86d6;
+}
+
+/*Centraliza o container principal do cabeçalho*/
+.container-cabecalho {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+/* define a largura do container interno da logo */
+.cabecalho-logo {
+    width: 350px;
+    position: relative;
+}
+
+/* Ajusta o tamanho da logo no menu*/
+.cabecalho-logo img {
+    height: 80px;
+    width: 80px;
+}
+
+
+/*Ajusta a div interna do texto ao lado da logo */
+.cabecalho-logo div {
+    position: absolute;
+    left: 100px;
+    top: 0px
+}
+
+.cabecalho-logo div p {
+    color: #fff;
+    font-weight: bold;
+
+}
+
+/*Ajusta o menu do cabeçalho para a lateral do 
+container do cabeçalho*/
+.cabecalho-menu {
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+
+/*Estiliza as ancoras do menu*/
+.cabecalho-menu a {
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cabecalho-menu a:hover {
+    background-color: #233032;
+    color: #fff;
+    border-radius: 15px;
+}
+
+/*Container Principal tabela*/
+.container-principal {
+    padding: 100px 0px;
+}
+
+/*Define a tabela centralizada 
+e ajusta a largura dela*/
+.container-tabela {
+    margin: 0 auto;
+    width: 1024px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Ajusta o espaçamento interno da caluna*/
+.colunas {
+    padding: 20px;
+}
+
+/*Estiliza o paragrafo das colunas da 
+tabela principal*/
+.colunas p {
+    font-size: 12px;
+    color: rgb(133, 131, 131);
+}
+
+/*Estiliza o titulo das colunas da 
+tabela do container principal*/
+.colunas h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/*estiliza a linhas da tabela todos para o 
+mesmo tamanho*/
+
+.linhas,
+.servicos {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.linhas {
+    text-align: center;
+}
+
+/*define o fundo escuro para celulas escuras*/
+.celula-escura {
+    background-color: #f6f6f6;
+}
+
+/*define o fundo claro para as celular claras*/
+.borda-escura {
+    border-bottom: 2px #f6f6f6 solid;
+    border-right: 2px #f6f6f6 solid;
+}
+
+.bola-azul {
+    background-color: #2f86d6;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: #2f86d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.linhas {
+    text-align: center;
+    /* Alinha o conteúdo no centro */
+}
+
+
+/*Container rodapé*/
+.container-rodape {
+    padding: 100px 0px;
+    background-color: #2f86d6;
+
+}
+
+/* define a largura do container interno da logo */
+.rodape-logo {
+    width: 320px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Ajusta o tamanho da logo no menu*/
+.rodape-logo img {
+    height: 90px;
+    width: 90px;
+}
+
+
+/*Ajusta a div interna do texto ao lado da logo */
+.rodape-logo div {
+    position: absolute;
+    left: 100px;
+    top: 0px
+}
+
+/*Define o estilo do paragrafo da logo*/
+.rodape-logo p {
+    color: #fff;
+    font-weight: bold;
+}
+
+/**/
+.rodape-texto {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    line-height: 50px;
+    padding: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.desenvovedor {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f6f6f6;
+    font-size: 20px;
+    font-weight: bold;
+}

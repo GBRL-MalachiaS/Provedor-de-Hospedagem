@@ -1,0 +1,348 @@
+/* Configurações Globais*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+/* Cabeçalho e menus */
+header {
+    padding: 35px 0;
+}
+
+/*Centraliza o container principal do cabeçalho*/
+.container-cabecalho {
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* define a largura do container interno da logo */
+.cabecalho-logo {
+    width: 350px;
+    position: relative;
+}
+
+/* Ajusta o tamanho da logo no menu*/
+.cabecalho-logo img {
+    height: 80px;
+    width: 80px;
+}
+
+
+/*Ajusta a div interna do texto ao lado da logo */
+.cabecalho-logo div {
+    position: absolute;
+    left: 100px;
+    top: 0px
+}
+
+.cabecalho-logo div p {
+    color: #2f86d6;
+    font-weight: bold;
+
+}
+
+/*Ajusta o menu do cabeçalho para a lateral do 
+container do cabeçalho*/
+.cabecalho-menu {
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+
+/*Estiliza as ancoras do menu*/
+.cabecalho-menu a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho-menu a:hover{
+    font-weight: bold;
+}
+
+.cabecalho-menu a:active{
+    background-color: #2f86d6;
+    color: #fff;
+    border-radius: 15px;
+}
+/* Banner topo */
+
+/* Container principal do banner após cabeçalho*/
+.container-banner {
+    margin: 0 auto;
+    background-color: #2f86d6;
+
+}
+
+/*Container centralizado do banner*/
+.banner {
+    width: 1024px;
+    height: 650px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*Container de texto do banner topo 
+centralizado a esquerda*/
+.banner-texto {
+    width: 470px;
+    height: 300px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    top: 175px;
+    color: #fff;
+}
+
+/*Ajusta o tamanho do titulo
+ dentro div banner-texto*/
+.banner-texto h3 {
+    font-size: 28px;
+    margin: 20px;
+}
+
+/*Ajusta o tamanho do paragrafo,
+dentro da div banner-texto*/
+.banner-texto p {
+    font-size: 18px;
+}
+
+/*Defini a posição da imagem 
+dentro do container banner*/
+.banner-img {
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+/*Container anuncio*/
+.container-anuncio {
+    padding: 25px;
+
+}
+
+/*Define a cor de fundo do anuncio 
+escuro e o fundo escuro do botão tabela*/
+.fundo-escuro {
+    background-color: #233032;
+}
+
+/*Define a cor de fundo do anuncio e o 
+fundo do botão tabelas*/
+.fundo-claro {
+    background-color: #2f86d6;
+}
+
+/*Centraliza o container interno anuncio*/
+.anuncio {
+    width: 1024px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/*Move para o canto direito o botão 
+tabela de preços*/
+.anuncio-btn {
+    position: absolute;
+    right: 55px;
+    top: 15px;
+}
+
+/*Define a cor de fundo do botão
+tabela de preço e ajusta as bordas*/
+.anuncio-btn p {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/*Ajusta a cor da ancora*/
+.anuncio-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Ajusta a cor do titulo do anuncio*/
+.anuncio-titulo {
+    color: #fff;
+}
+
+/*Ajusta o titulo do anuncio azul claro, após a tabela 
+de produtos*/
+.titulo-anuncio {
+    width: 500px;
+    font-size: 20px;
+}
+
+/*Ajusta o tamanho do container principal 
+de informações*/
+.container-informacoes {
+    padding: 100px 0;
+}
+
+/*Ajusta o tamanho do tiluto e 
+centraliza a div info-titulo na tela*/
+.info-titulo {
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+    font-size: 22px;
+}
+
+/*Define a cor da span info-titulo e
+e o Span dentro da tebela-produtos*/
+span {
+    color: #2f86d6;
+}
+
+/*Container resposavel pelas informações 
+do serviços apresentados*/
+.container-solucoes {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 100px;
+    display: flex;
+
+}
+
+/*Reponsavel pela centralização 
+e espaçamentos da linhas de soluções */
+.text-info {
+    text-align: center;
+    line-height: 30px;
+
+}
+
+/*Realiza um espaçamento da imagem 
+e dos paragrafos */
+.text-info h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*Define o tamanho das imagens dentro de soluções
+e seu espaçamento interno*/
+.info-img {
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+}
+
+/*tabela de produtos*/
+.container-tabela-produtos {
+    background-color: #f6f6f6;
+    padding: 100px 0;
+}
+
+/*Ajusta o espaçamento interno do caption*/
+.tabela-produtos caption {
+    padding-bottom: 120px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*Centraliza a tabela dentro do 
+container tabela produtos e define a sombra
+de fundo*/
+.tabela-produtos {
+    margin: 0 auto;
+    width: 1024px;
+    box-shadow: 0 0 30px 10px rgb(47, 134, 214, 1);
+    border-radius: 10px;
+}
+
+/*Centraliza as colunas*/
+.colunas {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+/* Realiza o espaçamento interno do titulo da coluna*/
+.colunas h3 {
+    padding: 30px 0;
+}
+
+/*Define o tamanho das imagens dentro do titulo
+dos produtos*/
+.colunas img {
+    width: 120px;
+    height: 120px;
+}
+
+/*Ajusta a cor do paragrafo da coluna*/
+.colunas p {
+    color: #878585;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+
+/*Centraliza as linhas da tabela
+e deixa uma espaçamento interno*/
+.linhas {
+    text-align: center;
+    padding: 15px 0;
+}
+
+/*define o fundo escuro para celulas escuras*/
+.celula-escura {
+    background-color: #f6f6f6;
+}
+
+/*define o fundo claro para as celular claras*/
+.celula-clara {
+    background-color: #fff;
+}
+
+
+/*Container rodapé*/
+.container-rodape {
+    padding: 100px 0px;
+}
+
+/* define a largura do container interno da logo */
+.contatos-logo {
+    width: 320px;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Ajusta o tamanho da logo no menu*/
+.contatos-logo img {
+    height: 90px;
+    width: 90px;
+}
+
+
+/*Ajusta a div interna do texto ao lado da logo */
+.contatos-logo div {
+    position: absolute;
+    left: 100px;
+    top: 0px
+}
+
+/*Define o estilo do paragrafo da logo*/
+.contatos-logo p {
+    font-weight: bold;
+}
+
+/**/
+.contatos {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    line-height: 50px;
+    padding: 60px;
+    font-weight: bold;
+}
+
+.desenvovedor{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f6f6f6;
+    font-size: 20px;
+    font-weight: bold;
+}
